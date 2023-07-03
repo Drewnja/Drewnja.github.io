@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Monument';
+    src: url(MonumentExtended-Regular.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat_bold';
+    src: url(Montserrat-ExtraBold.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat_normal';
+    src: url(Montserrat-Bold.ttf) format('truetype');
+  }
+  
+  html {
+      scroll-behavior: smooth;
+  }
+  body {
+      margin: 0;
+      padding: 0;
+      /* background-image: url('background.png'); */
+      background: linear-gradient(354deg, #0191d3, #0e002f);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: 'Montserrat_bold', 'Monument', sans-serif;
+      color: #fff;
+    }
+    
+    .logo {
+      position:absolute;
+      top:0px;
+      margin-top: 10px;
+      text-align: center;
+      
+      animation: fade-in 1s ease-out;
+    }
+
+    
+    .arrow {
+      bottom: 25px;
+      margin-top: 35px;
+      animation: arrow 1s ease-out infinite;
+  
+    }
+  
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  
+  
+    @keyframes arrow {
+      0% {
+  
+        transform: translateY(0px);
+      }
+      50% {
+  
+        transform: translateY(+10px);
+      }
+      100% {
+  
+          transform: translateY(0px);
+        }
+    }
+  
+    .telegram {
+      font-family: 'Monument', sans-serif;
+      margin-bottom: 20px;
+      
+      animation: fade-in 1s ease-out;
+      display: flex;
+      align-items: center;
+    }
+    .telegram img {
+      width: 50px;
+      height: auto;
+      margin-right: 20px;
+  
+  
+    }
+
+
+    .mail {
+      font-family: 'Monument', sans-serif;
+      margin-bottom: 200px;
+      
+      animation: fade-in 1s ease-out;
+      display: flex;
+      align-items: center;
+    }
+    .mail img {
+      width: 50px;
+      height: auto;
+      margin-right: 20px;
+  
+  
+    }
+
+    .mail a {
+      display: block;
+      margin-top: 0px;
+      padding: 15px 50px;
+      text-align: center;
+      background-color: #ffaa00;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+
+  
+  
+    }
+    
+    .logo img {
+      width: 100px;
+      height: auto;
+    }
+  
+    .trailer {
+      margin-top: 300px;
+      width: 100vw;
+    }
+    
+    .cta-button {
+      display: block;
+      margin-top: 0px;
+      padding: 15px 50px;
+      text-align: center;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+  
+    .cta-button {
+      display: block;
+      margin-top: 0px;
+      padding: 15px 50px;
+      text-align: center;
+      background-color: #2AA1DA;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+  
+    .learnmore {
+      margin-bottom: 2000px;
+      animation: fade-in 1s ease-out;
+      display: flex;
+      align-items: center;
+  
+    }
+  
+    .small-button {
+      display: block;
+      margin-top: 0px;
+      padding: 10px 10px;
+      text-align: center;
+      background-color: #007bff2f;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+    
+    
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+  
+    .container {
+      
+      font-family: 'Montserrat_normal';
+      width: 100%;
+      height: 100vh;
+  
+    }
+    .slides {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+  
+    .slides img {
+      width: 350px;
+    }
+  
+    .slides h2 {
+      max-width: 300px;
+    }
