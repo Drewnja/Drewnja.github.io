@@ -26,7 +26,7 @@
       align-items: center;
       justify-content: center;
       min-height: 100vh;
-      font-family: 'Montserrat_bold', 'Monument', sans-serif;
+      font-family: 'Monument', 'Montserrat_bold', sans-serif;
       color: #fff;
     }
     
@@ -75,8 +75,9 @@
     }
   
     .telegram {
-      font-family: 'Monument', sans-serif;
+      font-family: 'Monument', 'Montserrat_bold';
       margin-bottom: 20px;
+      margin-top: 100px;
       
       animation: fade-in 1s ease-out;
       display: flex;
@@ -90,10 +91,15 @@
   
     }
 
+    h1 {
+      margin-bottom: 20px;
+
+    }
+
 
     .mail {
-      font-family: 'Monument', sans-serif;
-      margin-bottom: 200px;
+      font-family: 'Monument', 'Montserrat_bold';
+      margin-bottom: 20px;
       
       animation: fade-in 1s ease-out;
       display: flex;
@@ -110,7 +116,7 @@
     .mail a {
       display: block;
       margin-top: 0px;
-      padding: 15px 50px;
+      padding: 15px 54px;
       text-align: center;
       background-color: #ffaa00;
       color: #fff;
@@ -122,6 +128,55 @@
   
   
     }
+
+    .phone {
+      font-family: 'Monument', 'Montserrat_bold';
+      margin-bottom: 20px;
+      
+      animation: fade-in 1s ease-out;
+      display:inline-flex;
+      align-items: center;
+    }
+    .phone img {
+      width: 50px;
+      height: auto;
+      margin-right: 20px;
+  
+  
+    }
+
+    .phone a {
+      display: block;
+      margin-top: 0px;
+      margin-left: 0px;
+      padding: 15px 49px;
+      text-align: center;
+      background-color: #3EE43D;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+
+  
+  
+    }
+    .phone_call a {
+      display: block;
+      margin-top: 0px;
+      padding: 15px 43px;
+      text-align: center;
+      background-color: #3EE43D;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+
+  
+  
+    }
+
     
     .logo img {
       width: 100px;
@@ -181,8 +236,14 @@
     }
     
     
-    .cta-button:hover {
+    .telegram a:hover {
       background-color: #0056b3;
+    }
+    .mail a:hover {
+      background-color: #966400;
+    }
+    .phone a:hover {
+      background-color: #248d24;
     }
   
     .container {
