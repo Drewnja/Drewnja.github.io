@@ -130,7 +130,7 @@
     }
 
     .phone {
-      font-family: 'Monument', 'Montserrat_bold';
+      font-family: 'Monument', 'Montserrat_bold', sans-serif;
       margin-bottom: 20px;
       
       animation: fade-in 1s ease-out;
@@ -177,7 +177,7 @@
   
     }
     .phone_call {
-      font-family: 'Monument', 'Montserrat_bold';
+      font-family: 'Monument', 'Montserrat_bold', sans-serif;
       margin-bottom: 20px;
       
       animation: fade-in 1s ease-out;
