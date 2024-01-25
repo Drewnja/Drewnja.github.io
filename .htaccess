@@ -1,0 +1,5 @@
+# BEGIN Force HTTP
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 443
+RewriteRule ^(.*)$ http://yourdomain.com/$1 [R=301,L]
+# END Force HTTP
