@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ЩИТПОСТ</title>
+    <meta http-equiv="refresh" content="1850">
+    
+</head>
+
+<h1>ПОСЛЕДНИЙ ЩИТПОСТ ИЗ r/Shitposting ЗА ПОСЛЕДНИЕ 30 МИНУТ</h1>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        h1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        img, video {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            animation: fade-in 1.5s ease-out;
+        }
+        @keyframes fade-in {
+      0% {
+        opacity: 0.5;
+        transform: translateY(-40px) rotate(3600deg)
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
+      }
+    }
+    </style>
+
+<img id="jpeg" onerror="this.style.display='none'">
+<img  id="jpg"  onerror="this.style.display='none'">
+<img  id="png"  onerror="this.style.display='none'">
+<img   id="gif"  onerror="this.style.display='none'">
+
+<script language="javascript" type="text/javascript">
+    var d = new Date(); 
+    document.getElementById("jpeg").src = 
+      "http://62.84.96.109/Shitpost.jpeg?nocache=" + 
+       d.getTime();
+       document.getElementById("jpg").src = 
+      "http://62.84.96.109/Shitpost.jpg?nocache=" + 
+       d.getTime();
+       document.getElementById("png").src = 
+      "http://62.84.96.109/Shitpost.png?nocache=" + 
+       d.getTime();
+       document.getElementById("gif").src = 
+      "http://62.84.96.109/Shitpost.gif?nocache=" + 
+       d.getTime();
+       document.getElementById("mp4").src = 
+      "http://62.84.96.109/Shitpost.mp4?nocache=" + 
+       d.getTime();
+</script>
+
+<video width="100%" height="100%" id="mp4" onerror="this.style.display='none'" autoplay loop muted>
+    <source src="http://62.84.96.109/Shitpost.mp4?" type="video/mp4">
+</video>
+
+</body>
+</html>
